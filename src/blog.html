@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test-Project</title>
+    <link rel="icon" href="/bl(1).svg">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <style>
+        @font-face {
+                   font-family:"Euclid-Circular-A";
+                   src: url(/assets/font/Euclid\ Circular\ A\ Medium.ttf);
+               }
+
+   </style>
+</head>
+<body class=" bg-dark">
+   <!-- nav -->
+   <section>
+    <div class=" bg-darklight min-w-full container mx-auto flex items-center justify-between px-10 md:px-40 py-5">
+       <!-- nav-three-text -->
+         <div>
+               <ul class=" flex items-center space-x-5 md:space-x-16">
+                    <li><a class="text-green" href="#">HOME</a></li>
+                    <li><a class="text-whitelight hover:text-green" href="">BUSINESS</a></li>
+                    <li><a class="text-whitelight hover:text-green" href="">UNIVERSITY</a></li>
+                    
+               </ul>
+         </div>
+         <!-- sign In -->
+         <div>
+             <a class=" text-green"  href="#">Sign In</a>
+         </div>
+    </div>
+    </section>
+    <!-- sec nav -->
+    <section class="">
+    <div id="nav"  class="container bg-bgcol min-w-full animate__animated mx-auto z-10 px-10  md:px-40 py-4 flex items-center justify-between">
+        <!-- logo -->
+        <div class=" flex items-center space-x-24">
+            <img src="/assets/images/Group 50.png" alt="">
+                <!-- menu -->
+            <div class="fixed md:static md:top-auto md:right-auto top-0 -right-full duration-400 z-10 bg-darklight md:bg-bgcol md:h-auto flex items-center justify-center   w-full h-screen md:block mobile-menu">
+                <div class="md:hidden absolute top-0 right-0 bg-green w-10 h-10 flex items-center justify-center rounded-full mt-5 mr-5 close-menu">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+                <ul class="flex flex-col md:flex-row md:text-whitelight text-white items-center md:space-x-8 text-2xl md:text-base space-y-4 md:space-y-0">
+                    <li class=" hover:text-green"><a href="home.html">Home</a></li>
+                    <li class="text-green hover:text-green"><a href="">Blog</a></li>
+                    <li class=" hover:text-green"><a href="comunitty.html">Comunitty</a></li>
+                    <li class=" hover:text-green"><a href="certificate.html">Certification</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- join now btn -->
+        <div>
+            <button class="text-green text-sm rounded-lg border hover:scale-110 duration-200  border-whitelight px-5 py-2">JOIN NOW</button>
+        </div>
+        <div class=" md:hidden open-menu">
+        <i class="fa-solid fa-bars  text-white text-4xl"></i>
+        </div>
+    </div>
+    </section>
+    <!-- main --> 
+    <section class=" my-5">
+         <div  class=" container mx-auto">
+              <div class="">
+                  <div class="">
+                    <div class=" headline swiper mySwiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img class="px-10 md:px-0 md:w-10/12 mx-auto" src="/assets/images/Slide Image Example.png" alt=""></div>
+                          <div class="swiper-slide"><img class="px-10 md:px-0 md:w-10/12 mx-auto" src="/assets/images/Slide Image Example.png" alt=""></div>
+                          <div class="swiper-slide"><img class="px-10 md:px-0 md:w-10/12 mx-auto" src="/assets/images/Slide Image Example.png" alt=""></div>
+                          <div class="swiper-slide"><img class="px-10 md:px-0 md:w-10/12 mx-auto" src="/assets/images/Slide Image Example.png" alt=""></div>
+                          <div class="swiper-slide"><img class="px-10 md:px-0 md:w-10/12 mx-auto" src="/assets/images/Slide Image Example.png" alt=""></div>
+                          <div class="swiper-slide"><img class="px-10 md:px-0 md:w-10/12 mx-auto" src="/assets/images/Slide Image Example.png" alt=""></div>
+                          <div class="swiper-slide"><img class="px-10 md:px-0 md:w-10/12 mx-auto" src="/assets/images/Slide Image Example.png" alt=""></div>
+                          <div class="swiper-slide"><img class="px-10 md:px-0 md:w-10/12 mx-auto" src="/assets/images/Slide Image Example.png" alt=""></div>
+                          <div class="swiper-slide"><img class="px-10 md:px-0 md:w-10/12 mx-auto" src="/assets/images/Slide Image Example.png" alt=""></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class=" px-10 md:px-28  mt-10 ">
+                        <h1 class=" text-white text-2xl font-bold headline ">How Developers Digest</h1>
+                        <p class=" text-whitelight headline">Want to dive in deeper into a specific category? Click on a topic below.</p>
+                    </div> 
+                  </div>
+              </div>
+         </div>
+    </section>
+    <!-- box  -->
+    <section id="cer" >
+           <div  class=" container mx-auto">
+                <div class=" grid grid-cols-1 md:grid-cols-3 gap-10 px-10 md:px-28 ">
+                    <div class="hover:scale-105 duration-200">
+                        <div class=" headline  bg-darksolid rounded-lg shadow-md space-y-2">
+                            <img class="" src="/assets/images/Slide Image Example (1).png" alt="">
+                            <div class=" px-10 py-4" > 
+                            <h1 class="font bold text-white">HACKING | 10 MIN READ</h1>
+                            <p class="w-60 text-whitelight">From poker player to Senior Pentester at Oracle: Jeremy's journey into cybersec</p>
+                            
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="hover:scale-105 duration-200">
+                        <div class=" headline  bg-darksolid rounded-lg shadow-md space-y-2">
+                            <img class="" src="/assets/images/Slide Image Example (1).png" alt="">
+                            <div class=" px-10 py-4" > 
+                            <h1 class="font bold text-white">HACKING | 10 MIN READ</h1>
+                            <p class="w-60 text-whitelight">From poker player to Senior Pentester at Oracle: Jeremy's journey into cybersec</p>
+                            
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="hover:scale-105 duration-200">
+                        <div class=" headline  bg-darksolid rounded-lg shadow-md space-y-2">
+                            <img class="" src="/assets/images/Slide Image Example (1).png" alt="">
+                            <div class=" px-10 py-4" > 
+                            <h1 class="font bold text-white">HACKING | 10 MIN READ</h1>
+                            <p class="w-60 text-whitelight">From poker player to Senior Pentester at Oracle: Jeremy's journey into cybersec</p>
+                            
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="hover:scale-105 duration-200">
+                        <div class=" headline  bg-darksolid rounded-lg shadow-md space-y-2">
+                            <img class="" src="/assets/images/Slide Image Example (1).png" alt="">
+                            <div class=" px-10 py-4" > 
+                            <h1 class="font bold text-white">HACKING | 10 MIN READ</h1>
+                            <p class="w-60 text-whitelight">From poker player to Senior Pentester at Oracle: Jeremy's journey into cybersec</p>
+                            
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="hover:scale-105 duration-200">
+                        <div class=" headline  bg-darksolid rounded-lg shadow-md space-y-2">
+                            <img class="" src="/assets/images/Slide Image Example (1).png" alt="">
+                            <div class=" px-10 py-4" > 
+                            <h1 class="font bold text-white">HACKING | 10 MIN READ</h1>
+                            <p class="w-60 text-whitelight">From poker player to Senior Pentester at Oracle: Jeremy's journey into cybersec</p>
+                            
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="hover:scale-105 duration-200">
+                        <div class=" headline  bg-darksolid rounded-lg shadow-md space-y-2">
+                            <img class="" src="/assets/images/Slide Image Example (1).png" alt="">
+                            <div class=" px-10 py-4" > 
+                            <h1 class="font bold text-white">HACKING | 10 MIN READ</h1>
+                            <p class="w-60 text-whitelight">From poker player to Senior Pentester at Oracle: Jeremy's journey into cybersec</p>
+                            
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+           </div>
+    </section>
+    <!-- traing   -->
+    <section id="training" class=" my-20">
+        <div class=" container mx-auto ">
+           <div class=" headline flex items-center md:justify-evenly  space-x-10 px-8 md:px-0">
+               <div class="">
+                   <h1 class=" text-xl md:text-2xl text-white max-w-xs">Ready To Start Your <br> Developer Journey?</h1>
+              </div>
+              <div class="">
+               <button class="  text-sm bg-green font-bold rounded-lg border hover:scale-110 duration-200 border-whitelight px-5 py-2">JOIN NOW</button>
+              </div>
+           </div>
+        </div>
+    </section>
+    <!-- pravicy  -->
+    <section id="pravicy">
+        <div class=" container mx-auto">
+             <div class="headline grid text-center md:text-left grid-cols-2 md:grid-cols-4 gap-10 px-10">
+                  <div class="">
+                      <img src="/assets/images/Group 50.png" alt="">
+                      <div>
+                          <ul class=" text-whitelight md:px-8">
+                              <li>Home</li>
+                              <li>BUSINESS</li>
+                              <li>UNIVERSITY</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="">
+                    <h1 class="hover:text-green duration-200 text-white font-bold">Products</h1>
+                    <ul class=" text-whitelight space-y-3">
+                         <li>Playground</li>
+                         <li>Pro Labs</li>
+                         <li>Academy</li>
+                    </ul>
+                  </div>
+                  <div>
+                     <h1 class="hover:text-green duration-200 text-white font-bold">Company</h1>
+                     <ul class=" text-whitelight space-y-3 ">
+                         <li>About Us</li>
+                         <li>Join Us</li>
+                         <li>Contact Us</li>
+                         <li>News</li>
+                         <li>Partners</li>
+                     </ul>
+                  </div>
+                  <div>
+                    <h1 class="text-white font-bold hover:text-green duration-200"> Resources</h1>
+                    <ul class=" text-whitelight space-y-3">
+                        <li>Knowledge</li>
+                        <li>Blog</li>
+                        <li>Forum</li>
+                        <li>Community</li>
+                        <li>Testimonials</li>
+                        <li>Certificate Validations</li>
+                        <li>Teams</li>
+                        
+                    </ul>
+                  </div>
+             </div>
+             <div class=" px-10 mt-20">
+                 <div class=" flex items-center space-x-20 text-whitelight md:space-x-40">
+                     <h1  class="hover:text-green duration-200">© 2022 berryleaf</h1>
+                     <span class="hover:text-green duration-200">Privacy Notice</span>
+                 </div>
+             </div>
+        </div>
+   </section>
+
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+             ScrollReveal({
+                    origin: 'bottom',
+                    distance: '200px',
+                    duration: 2000,
+                    reset: true, 
+                 }).reveal('.headline',{interval:100});
+                    var swiper = new Swiper(".mySwiper", {
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    });
+                
+                    const openMenu = document.querySelector('.open-menu')
+                    const closeMenu = document.querySelector('.close-menu')
+                    const mobileMenu =document.querySelector('.mobile-menu')
+                    openMenu.addEventListener('click',() =>{
+                        mobileMenu.style.right ='0px'
+
+                    })
+                    closeMenu.addEventListener('click',() =>{
+                        mobileMenu.style.right ='-100%'
+                        
+                    })
+                    const nav =document.getElementById('nav')
+                    var waypoint = new Waypoint({
+                    element: document.getElementById('cer'),
+                    handler: function(direction) {
+                    
+                    if(direction==="down"){
+                        nav.classList.add("fixed","top-0","animate__fadeInLeft")
+                    }
+                    else
+                    {
+                        nav.classList.remove("fixed","top-0","animate__fadeInLeft")
+                    }
+
+                },
+                offset: '20%'
+                })
+            
+      </script>
+</body>
+</html>
+
